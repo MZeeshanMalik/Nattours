@@ -5,7 +5,7 @@ This project is based on the **Node.js course on Udemy** by **Jonas Schmedtmann*
 ## Acknowledgements
 
 - **Jonas Schmedtmann**: Thank you for creating an amazing course that taught me how to build a full-stack web app with Node.js. 🙌
-About Nattours
+## About Nattours
 Natours is a tour booking web app that you created as part of the Node.js course on Udemy by Jonas Schmedtmann. The app utilizes Node.js, Express, and MongoDB to create a RESTful API and a dynamic website. It also incorporates features such as authentication, authorization, security, payments, and email functionalities. Impressive work! 🌟
 To get started with your README file, follow these steps:
 - Clone the Repository:
@@ -13,7 +13,7 @@ To get started with your README file, follow these steps:
 
 git clone /https://github.com/MZeeshanMalik/Nattours
 
-    - Navigate to the project directory:
+    - Navigate to the project directory:https://github.com/MZeeshanMalik/Nattours
 
 cd natours-project-MZeeshanMalik
 
