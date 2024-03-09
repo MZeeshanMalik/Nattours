@@ -1,0 +1,4 @@
+.cache
+.prettierrc
+config.env
+node_modules

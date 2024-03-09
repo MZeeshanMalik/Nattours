@@ -1,0 +1,27 @@
+doctype html 
+html 
+    block head
+        head 
+            meta(charset='UTF-8')
+            meta(http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; frame-src *;")
+            //- meta(name="Content-Security-Policy" value="script-src 'self'; script-src-elem 'self' 'unsafe-eval'")
+            meta(name='viewport' content='width=device-width, initial-scale=1.0')
+            link(rel='stylesheet' href='/css/style.css') 
+            link(rel="shortcut icon"  type="/image/png"  href="/img/favicon.png")
+            //- link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,300i,700')
+            title Natours | #{title}
+    body    
+        //-header
+        include _header
+        //-content
+        block content 
+            h1 This is placeholder
+        //-footer
+        include _footer
+            //- script(src  ="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js")
+            //- script(src='../js/mapbox.js')
+            //- script(src='../js/login.js')
+            script(src='../js/bundle.js')
+            //- script(src='https://www.bing.com/api/maps/mapcontrol?key=AvX2RTsOBcEuEVNLMMlBq8BFnqSEe-8vS2nRe-NFH67FUMCJSVGC6nbrIr3sv8xx')
+            
+
