@@ -13,7 +13,7 @@ To get started with your README file, follow these steps:
 
 git clone /https://github.com/MZeeshanMalik/Nattours
 
-    - Navigate to the project directory:https://github.com/MZeeshanMalik/Nattours
+    - https://github.com/MZeeshanMalik/Nattours
 
 cd natours-project-MZeeshanMalik
 
