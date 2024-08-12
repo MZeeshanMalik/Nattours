@@ -9,12 +9,9 @@ const Users = require("../../Models/userModel");
 // console.log(DB);
 
 mongoose
-  .connect(
-    "mongodb+srv://zeeshan:r9FFFE2t7gw9oJO3@nattours.ox5gg.mongodb.net/",
-    {
-      useNewUrlParser: true,
-    }
-  )
+  .connect(process.env.URL, {
+    useNewUrlParser: true,
+  })
   .then((conn) => {
     console.log("connection established");
   });
