@@ -67,13 +67,7 @@ block content
     each img , i in tour.images
       .picture-box
         img.picture-box__img(src=`/img/tours/${img}`, alt=`${tour.name} Tour ${i+1}`, class=`picture-box__img--${i+1}`)
-  section.section-map
-    //- .printoutPanel
-    //- #map(data-locations=`${JSON.stringify(tour.locations)}`)
-    //-  <div id='printoutPanel'></div>
-        <div id='myMap' style='width: 100vw; height: 100vh;'></div>
-    #printoutPanel
-      #myMap
+ 
 
   section.section-reviews
     .reviews
