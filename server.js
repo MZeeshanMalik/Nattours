@@ -14,12 +14,12 @@ mongoose
   });
 console.log(process.env.NODE_ENV);
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log("server has started....");
 });
 
-process.on("unhandledRejectoion", (err) => {
+process.on("unhandledRejection", (err) => {
   console.log(err.message, err.name);
   process.exit(1);
 });

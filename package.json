@@ -50,6 +50,7 @@
     "cookie-parser": "^1.4.6",
     "cookie-signature": "^1.2.1",
     "core-util-is": "^1.0.3",
+    "cors": "^2.8.5",
     "create-error-class": "^3.0.2",
     "cross-spawn": "^5.1.0",
     "crypto-random-string": "^1.0.0",
@@ -254,7 +255,7 @@
     "yauzl": "^2.10.0"
   },
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
