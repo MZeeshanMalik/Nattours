@@ -2,7 +2,7 @@
   "name": "nattours",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "swrver.js",
   "dependencies": {
     "-": "^0.0.1",
     "abbrev": "^1.1.1",
@@ -253,9 +253,12 @@
     "yallist": "^4.0.0",
     "yauzl": "^2.10.0"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "debug": "ndb app.js",
     "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
     "build:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
