@@ -13,8 +13,12 @@ mongoose
   })
   .then((conn) => {
     console.log("connection established");
+  })
+  .catch((err) => {
+    console.error("Database connection error:", err);
+    process.exit(1);
   });
-console.log(process.env.NODE_ENV);
+// console.log(process.env.NODE_ENV);
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
